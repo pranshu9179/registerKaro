@@ -49,7 +49,7 @@ const Contacts = () => {
           you to stay in touch with our experts and aids you in tracking your
           progress.
         </p>
-        <div className="flex flex-col md:flex-row justify-center gap-4 mt-6">
+        <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6">
           <button className="bg-green-500 px-6 py-3 rounded-lg font-semibold text-white shadow-lg hover:bg-green-600">
             Get it on App Store
           </button>
@@ -83,17 +83,17 @@ const Contacts = () => {
         <h2 className="text-2xl md:text-4xl font-bold mt-2">
           Welcome to your new digital reality. Now.
         </h2>
-        <div className="mt-6 flex justify-center">
+        <div className="mt-6 flex flex-col sm:flex-row justify-center">
           <input
             type="email"
             placeholder="Enter Your Email"
-            className="px-4 py-3 w-80 rounded-l-lg border-none text-black"
+            className="px-4 py-3 w-full sm:w-80 rounded-t-lg sm:rounded-l-lg border-none text-black"
           />
-          <button className="bg-blue-600 px-6 py-3 rounded-r-lg font-semibold shadow-lg hover:bg-blue-700">
+          <button className="bg-blue-600 px-6 py-3 rounded-b-lg sm:rounded-r-lg sm:rounded-b-none font-semibold shadow-lg hover:bg-blue-700">
             Submit
           </button>
         </div>
-        <div className="flex justify-center gap-4 mt-4 text-xs">
+        <div className="flex flex-wrap justify-center gap-4 mt-4 text-xs">
           <span>✔ Instant results</span>
           <span>✔ User-friendly interface</span>
           <span>✔ Personalized customization</span>

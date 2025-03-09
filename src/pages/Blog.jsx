@@ -116,7 +116,7 @@ const Blog = () => {
   const [openFAQ, setOpenFAQ] = useState(null);
 
   return (
-    <div className="px-6 md:px-12 lg:px-24 py-12">
+    <div className="px-4 sm:px-8 md:px-12 lg:px-24 py-12">
       <div className="text-center">
         <h3 className="text-sm text-orange-500 uppercase tracking-wide">
           Explore Our Blogs
@@ -221,12 +221,6 @@ const Blog = () => {
               )}
             </div>
           ))}
-        </div>
-
-        <div className="flex justify-center mt-6">
-          <button className="bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg shadow-lg hover:bg-blue-700">
-            Show more →
-          </button>
         </div>
       </div>
     </div>

@@ -53,16 +53,16 @@ const Service = () => {
         {services.map((service, index) => (
           <div
             key={index}
-            className="p-6 border rounded-lg shadow-md hover:shadow-lg transition bg-white"
+            className="p-6 border rounded-lg shadow-md hover:shadow-lg hover:-translate-y-1 transition bg-white"
           >
-            <div className="text-orange-500 flex items-center text-3xl">
+            <div className="text-orange-500 flex items-center text-4xl">
               {service.icon}
             </div>
             <h3 className="text-lg font-semibold mt-4">{service.title}</h3>
             <p className="text-gray-600 mt-2">{service.description}</p>
             <a
               href="#"
-              className="text-blue-600 mt-3 inline-block font-semibold"
+              className="text-blue-600 mt-3 inline-block w-fit font-semibold hover:underline"
             >
               Learn more →
             </a>
@@ -70,8 +70,8 @@ const Service = () => {
         ))}
       </div>
 
-      <div className="text-center mt-8">
-        <button className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition">
+      <div className="text-center mt-10">
+        <button className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition active:scale-95">
           See All Services
         </button>
       </div>

@@ -125,7 +125,7 @@ const AboutUs = () => {
         </p>
 
         <div className="flex flex-wrap justify-center gap-6 mt-6">
-          {[...Array(20)].map((_, i) => (
+          {[...Array(12)].map((_, i) => (
             <button
               key={i}
               className="w-16 h-16 md:w-20 md:h-20 bg-gray-100 rounded-full flex items-center justify-center shadow-md"
